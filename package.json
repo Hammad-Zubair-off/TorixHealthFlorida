@@ -2,6 +2,11 @@
   "name": "torix-health",
   "version": "0.1.0",
   "private": true,
+  "author": "Hammad Zubair <hammadzubairofficial@gmail.com> (https://github.com/Hammad-Zubair-off)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hammad-Zubair-off/TorixHealthFlorida.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
