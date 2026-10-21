@@ -3,23 +3,23 @@ import type { FeatureItem } from "@/components/IconFeatureGrid";
 import type { EnrollmentColumn } from "@/components/EnrollmentColumns";
 import type { IconName } from "@/components/icons";
 
-/** Credentialing and Contract — payer enrollment, CAQH, recredentialing, and related support. */
+/** Credentialing & Contracting — payer enrollment, CAQH, recredentialing, and related support. */
 export const credentialingContent = {
   meta: {
-    title: "Credentialing and Contract",
+    title: "Provider Credentialing in Florida",
     description:
-      "Torix Solutions credentialing gets you enrolled with the insurances that matter and keeps you compliant — so enrollment lag and expired credentials don't quietly cut off your ability to bill.",
+      "Provider credentialing in Florida: Medicare (First Coast), Florida Medicaid and SMMC plans, Florida Blue and commercial payers, plus CAQH and renewals.",
   },
   hero: {
     breadcrumb: [
       { label: "Home", href: "/" },
       { label: "Services" },
-      { label: "Credentialing and Contract" },
+      { label: "Credentialing & Contracting" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "Enrolled with the payers that matter — and kept that way.",
+    eyebrow: "Credentialing & Contracting",
+    headline: "Provider credentialing for Florida payers, done once and kept current.",
     subheadline:
-      "Credentialing delays cost you real money — every day you're not enrolled with a payer is a day you can't bill them. Our credentialing service gets you set up and approved with the insurances that matter, and keeps you compliant so you don't lose network status without knowing it.",
+      "Every day a provider isn't enrolled with a payer is a day you can't bill that payer. We handle enrollment with Medicare, Florida Medicaid and its managed care plans, Florida Blue and other commercial insurers, then keep CAQH and recredentialing current so you never drop out of network unnoticed.",
     primaryCta: { label: "Book a Consultation", href: "/contact" },
     secondaryCta: {
       label: "See Medical Billing",
@@ -80,7 +80,7 @@ export const credentialingContent = {
     ] satisfies FeatureItem[],
   },
   specialties: {
-    heading: "Comprehensive Credentialing & Billing Solutions Across 20+ Medical Specialties",
+    heading: "Comprehensive Credentialing & Billing Solutions Across 20 Medical Specialties",
     subheading:
       "We provide specialized medical credentialing, insurance enrollment, and medical billing solutions tailored to the unique needs of healthcare providers across a wide range of specialties.",
     items: [
@@ -107,7 +107,7 @@ export const credentialingContent = {
     ] satisfies FeatureItem[],
   },
   enrollmentSolutions: {
-    heading: "How Torix Solutions Simplifies Provider Enrollment",
+    heading: "How Medical Billers Simplifies Provider Enrollment",
     subheading:
       "Government programs and commercial payers follow different rules, timelines, and documentation standards. We manage both so enrollment lag doesn't become lost revenue.",
     columns: [
@@ -174,7 +174,7 @@ export const credentialingContent = {
         ],
       },
       {
-        title: "The Torix Solutions Enrollment Solution",
+        title: "The Medical Billers Enrollment Solution",
         items: [
           {
             title: "Streamlined Processing",
@@ -217,7 +217,7 @@ export const credentialingContent = {
         "TRICARE",
         "Aetna",
         "UnitedHealthcare",
-        "Blue Cross Blue Shield",
+        "Florida Blue (BCBS)",
         "And More",
       ],
     },
@@ -228,11 +228,11 @@ export const credentialingContent = {
       {
         question: "Why is my provider credentialing taking so long?",
         answer:
-          "Credentialing delays can result from incomplete applications, missing documents, CAQH discrepancies, payer backlogs, or additional verification requirements. Torix Solutions manages the process and follows up with payers to help keep applications moving.",
+          "Credentialing delays can result from incomplete applications, missing documents, CAQH discrepancies, payer backlogs, or additional verification requirements. Medical Billers manages the process and follows up with payers to help keep applications moving.",
       },
       {
         question:
-          "Can Torix Solutions handle Medicare, Medicaid, and commercial payer enrollment?",
+          "Can Medical Billers handle Medicare, Medicaid, and commercial payer enrollment?",
         answer:
           "Yes. We assist providers with Medicare, Medicaid, and major commercial payer enrollment based on their state, specialty, taxonomy, and payer requirements.",
       },
@@ -253,10 +253,9 @@ export const credentialingContent = {
           "Yes. CAQH setup, updates and scheduled attestation are part of the service, because incomplete profiles are one of the most common reasons applications stall.",
       },
       {
-        question:
-          "What happens if an enrollment application is denied or delayed?",
+        question: "How do I enroll as a Florida Medicaid provider?",
         answer:
-          "We review the reason, correct what we can, resubmit or escalate follow-up with the payer, and keep you informed so the practice isn't left guessing why a panel isn't active.",
+          "Florida Medicaid enrollment goes through the Agency for Health Care Administration (AHCA) provider enrollment process. Because most Florida Medicaid patients are in Statewide Medicaid Managed Care (SMMC) plans, providers usually also need to credential with each plan they want to see patients from. We prepare the state application and handle credentialing with the plans you choose.",
       },
       {
         question: "Do you automatically track recredentialing deadlines?",
@@ -264,14 +263,14 @@ export const credentialingContent = {
           "Yes. Recredentialing is managed on a calendar with proactive follow-up before deadlines, so renewals don't lapse unnoticed.",
       },
       {
-        question: "Is Credentialing and Contract available separately from Medical Billing?",
+        question: "Is Credentialing & Contracting available separately from Medical Billing?",
         answer:
-          "Yes. Credentialing and Contract can stand alone or run alongside Medical Billing or Revenue Cycle Management. Many practices use it when adding providers or cleaning up enrollment lag even if billing stays in house.",
+          "Yes. Credentialing & Contracting can stand alone or run alongside Medical Billing or Revenue Cycle Management. Many practices use it when adding providers or cleaning up enrollment lag even if billing stays in house.",
       },
       {
-        question: "Which insurance networks do you work with?",
+        question: "Which insurance networks do you work with in Florida?",
         answer:
-          "We work across commercial and government payers common to independent practices. Scope is confirmed per engagement based on your specialty, locations and the panels you need to bill.",
+          "Medicare through First Coast Service Options, Florida Medicaid and its SMMC plans, TRICARE, Florida Blue, Aetna, UnitedHealthcare and other commercial payers. Scope is confirmed per engagement based on your specialty, locations and the panels you need to bill.",
       },
     ] satisfies FAQItem[],
   },

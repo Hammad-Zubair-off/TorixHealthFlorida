@@ -33,9 +33,9 @@ export function ContactPanel({
     <Section band="paper" className="border-y border-divider" id="get-in-touch">
       <Container className="grid gap-10 py-[clamp(56px,6.5vw,92px)] lg:grid-cols-2 lg:gap-14">
         <div>
-          <h2 className="mb-3 max-w-[16ch] text-[clamp(26px,2.7vw,34px)] text-text">
+          <h1 className="mb-3 max-w-[16ch] text-[clamp(26px,2.7vw,34px)] text-text">
             {heading}
-          </h2>
+          </h1>
           {subheading ? (
             <p className="mb-8 max-w-[42ch] text-[15px] text-neutral-600">
               {subheading}

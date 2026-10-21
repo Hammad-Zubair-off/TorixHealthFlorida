@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { buildPageMetadata } from "@/lib/site";
-import { faqPageSchema, breadcrumbSchema } from "@/lib/seo-schema";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/seo-schema";
 import { CTABanner } from "@/components/CTABanner";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { Footer } from "@/components/Footer";
@@ -22,7 +22,7 @@ export default function HipaaCompliantSoftwarePage() {
 
   return (
     <>
-      <JsonLd data={[faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/solutions/hipaa-compliant-software")]} />
+      <JsonLd data={[serviceSchema(c.hero.breadcrumb, c.meta.description, "/solutions/hipaa-compliant-software"), faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/solutions/hipaa-compliant-software")]} />
       <Navbar />
       <main>
         <Hero

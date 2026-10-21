@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { buildPageMetadata } from "@/lib/site";
-import { faqPageSchema, breadcrumbSchema } from "@/lib/seo-schema";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/seo-schema";
 import { CTABanner } from "@/components/CTABanner";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { Footer } from "@/components/Footer";
@@ -21,7 +21,7 @@ export default function ArFollowUpPage() {
 
   return (
     <>
-      <JsonLd data={[faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/services/ar-follow-up")]} />
+      <JsonLd data={[serviceSchema(c.hero.breadcrumb, c.meta.description, "/services/ar-follow-up"), faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/services/ar-follow-up")]} />
       <Navbar />
       <main>
         <Hero

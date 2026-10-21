@@ -7,9 +7,9 @@ import type { IconName } from "@/components/icons";
 /** Medical Billing Audit — KPI, denial, and productivity analysis with corrective actions. */
 export const medicalAuditContent = {
   meta: {
-    title: "Medical Billing Audit",
+    title: "Medical Billing Audit in Florida",
     description:
-      "Torix Solutions analyzes your practice's revenue cycle KPIs, denial patterns, and provider productivity — turning billing data into decisions you can act on.",
+      "Medical billing audits for Florida practices: denial patterns, coding accuracy, payer underpayments and A/R aging, with fixes ranked by dollar impact.",
   },
   hero: {
     breadcrumb: [
@@ -17,12 +17,12 @@ export const medicalAuditContent = {
       { label: "Services" },
       { label: "Medical Billing Audit" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "Know which numbers are moving, and why.",
+    eyebrow: "Medical Billing Audit",
+    headline: "A medical billing audit that shows where revenue is leaking.",
     subheadline:
       "Most practices have data. Very few have answers. A monthly collections figure tells you what happened; it doesn't tell you whether your clean claims ratio slipped, which payer is underpaying, or which provider's E/M distribution is quietly costing you revenue.",
     distinction:
-      "Torix Solutions analyzes your practice's operational and financial data against defined benchmarks, identifies where performance is deviating, and returns specific corrective actions — not a dashboard you'll stop opening after two weeks.",
+      "Medical Billers analyzes your practice's operational and financial data against defined benchmarks, identifies where performance is deviating, and returns specific corrective actions — not a dashboard you'll stop opening after two weeks.",
     primaryCta: { label: "Request an Audit", href: "/contact" },
     secondaryCta: {
       label: "See Medical Billing",
@@ -188,7 +188,7 @@ export const medicalAuditContent = {
     ] satisfies FeatureItem[],
   },
   whyUs: {
-    heading: "Why Torix Solutions",
+    heading: "Why Medical Billers",
     subheading:
       "Benchmarks, root cause, and recommendations tied to dollars — with a path to implement findings.",
     items: [
@@ -226,7 +226,7 @@ export const medicalAuditContent = {
         icon: "check" as IconName,
         title: "Connected to Execution",
         description:
-          "Because Torix also runs revenue cycle management, billing audits, and credentialing, findings can be implemented rather than just delivered.",
+          "Because we also run revenue cycle management, billing audits, and credentialing, findings can be implemented rather than just delivered.",
       },
     ] satisfies FeatureItem[],
   },

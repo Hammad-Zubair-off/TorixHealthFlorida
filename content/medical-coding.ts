@@ -7,9 +7,9 @@ import type { IconName } from "@/components/icons";
 /** Medical Coding service page — same component pattern as Medical Billing / RCM. */
 export const medicalCodingContent = {
   meta: {
-    title: "Medical Coding",
+    title: "Medical Coding Services in Florida",
     description:
-      "Torix Solutions provides ICD-10 and CPT medical coding for independent practices, with specialty-aware assignment, documentation queries when the note doesn't support the code, and handoff ready for claim submission.",
+      "ICD-10 and CPT medical coding for Florida practices, with specialty-aware review and documentation queries before claims go out.",
   },
   hero: {
     breadcrumb: [
@@ -17,10 +17,10 @@ export const medicalCodingContent = {
       { label: "Services" },
       { label: "Medical Coding" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "ICD-10 and CPT coding that holds up under scrutiny.",
+    eyebrow: "Medical Coding Services",
+    headline: "Accurate ICD-10 and CPT coding, checked before claims go out.",
     subheadline:
-      "Torix Solutions assigns ICD-10 diagnosis and CPT procedure codes from your documentation, raises queries when the note doesn't support the code, and hands off submission-ready work so coding-related denials are caught before the claim goes out.",
+      "Medical Billers assigns ICD-10 diagnosis and CPT procedure codes from your documentation, raises queries when the note doesn't support the code, and hands off submission-ready work so coding-related denials are caught before the claim goes out.",
     distinction:
       "Available on its own, or bundled with Medical Billing or full Revenue Cycle Management.",
     primaryCta: { label: "Book a Consultation", href: "/contact" },
@@ -112,7 +112,7 @@ export const medicalCodingContent = {
       {
         title: "Submission-Ready Handoff",
         description:
-          "Coded work handed to your billing team or to Torix billing/RCM so the claim can move without rework at the front of the queue.",
+          "Coded work handed to your billing team or to our billing/RCM team so the claim can move without rework at the front of the queue.",
       },
     ] satisfies ProcessStep[],
   },
@@ -160,9 +160,9 @@ export const medicalCodingContent = {
       },
       {
         icon: "mapPin" as IconName,
-        title: "US-Based & In-Person Support",
+        title: "A Coder Your Clinicians Can Reach",
         description:
-          "Staffed in the United States, with a representative who can work through documentation questions with your clinicians when needed.",
+          "A named representative who can work through documentation questions with your clinicians when needed.",
       },
     ] satisfies FeatureItem[],
   },

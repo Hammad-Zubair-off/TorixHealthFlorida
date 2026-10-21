@@ -5,9 +5,9 @@ import type { IconName } from "@/components/icons";
 /** Accounts Receivable Operations — aging AR, denials, appeals, and payment recovery. */
 export const arFollowUpContent = {
   meta: {
-    title: "Accounts Receivable Operations",
+    title: "A/R Follow-Up & Denial Management",
     description:
-      "Torix Solutions handles AR follow-up, denial resolution, appeals and payment recovery — working inside the system you already use, with a named representative you can call.",
+      "A/R follow-up and denial management for Florida practices: aging claims worked by priority, denials appealed and underpayments recovered.",
   },
   hero: {
     breadcrumb: [
@@ -15,8 +15,8 @@ export const arFollowUpContent = {
       { label: "Services" },
       { label: "Accounts Receivable Operations" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "Aging balances worked — denials fixed, payments recovered.",
+    eyebrow: "A/R & Denial Management",
+    headline: "A/R follow-up that turns unpaid claims into payments.",
     subheadline:
       "We handle AR follow-up, denial resolution, appeals and payment recovery for your practice, working inside the system you already use, with a named representative you can call.",
     primaryCta: { label: "Request an A/R Assessment", href: "/contact" },

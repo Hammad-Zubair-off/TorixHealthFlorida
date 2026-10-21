@@ -8,13 +8,13 @@ import { siteContact } from "@/lib/site-contact";
 /** Contact Us page — form posts to `/api/contact` (Resend). */
 export const contactContent = {
   meta: {
-    title: "Contact Us",
+    title: "Contact Us for a Free Billing Review",
     description:
-      "Contact Torix Solutions for medical billing, healthcare software, revenue cycle management, and compliance questions. Book a consultation or send a message.",
+      "Contact Medical Billers for a free review of your practice's billing, denials and A/R. Ask about billing, coding, credentialing or HIPAA.",
   },
   panel: {
-    heading: "Contact information",
-    subheading: "Reach us directly, or send a message with the form.",
+    heading: "Talk to a medical billing specialist",
+    subheading: "Call, email or send the form. Tell us about your denials and A/R, and we'll tell you what we'd change.",
     // Office address — West Jordan, UT
     details: [
       {
@@ -41,24 +41,23 @@ export const contactContent = {
     ],
     formHeading: "Send us a message",
     formIntro:
-      "Have a question or want to discuss your healthcare needs? Complete the form below, and a member of our team will get back to you as soon as possible.",
+      "Tell us about your practice and what's slowing down your collections. A billing specialist will reply during business hours.",
   },
   serviceOptions: [
     { value: "medical-billing", label: "Medical Billing Services" },
     { value: "medical-coding", label: "Medical Coding" },
     { value: "rcm", label: "Revenue Cycle Management (RCM)" },
-    { value: "credentialing", label: "Credentialing and Contract" },
+    { value: "credentialing", label: "Credentialing & Contracting" },
     { value: "medical-audit", label: "Medical Billing Audit" },
     { value: "ar-follow-up", label: "Accounts Receivable Operations" },
     { value: "billing-software", label: "Medical Billing Software" },
-    { value: "healthcare-platform", label: "Healthcare Platform Solutions" },
-    { value: "hipaa", label: "HIPAA-Focused Software & Compliance" },
+    { value: "hipaa", label: "HIPAA-Compliant Software" },
     { value: "general", label: "General Questions & Support" },
   ] satisfies ContactServiceOption[],
   whyContact: {
-    heading: "Why contact Torix Solutions?",
+    heading: "Why contact Medical Billers?",
     subheading:
-      "When you reach out to us, you'll connect with professionals who understand both healthcare operations and modern technology. We focus on delivering practical guidance, not sales pressure, so you can make informed decisions for your practice.",
+      "You'll talk to someone who works claims every day, not a salesperson. Bring a recent remittance or your A/R aging report and we'll give you straight answers, whether or not you hire us.",
     items: [
       {
         icon: "activity" as IconName,
@@ -72,8 +71,8 @@ export const contactContent = {
       },
       {
         icon: "monitor" as IconName,
-        title: "Modernizing healthcare technology",
-        description: "Discuss billing software, platform modules and integrations.",
+        title: "Getting providers credentialed",
+        description: "Medicare, Florida Medicaid plans and commercial payer enrollment.",
       },
       {
         icon: "shield" as IconName,
@@ -93,17 +92,17 @@ export const contactContent = {
       {
         question: "How quickly will I receive a response?",
         answer:
-          "We aim to respond to all inquiries as quickly as possible during normal business hours.",
+          "We reply to inquiries during business hours, Monday to Friday.",
       },
       {
-        question: "Do you offer consultations before getting started?",
+        question: "Is the first consultation free?",
         answer:
-          "Yes. We offer consultations to better understand your needs and recommend the most appropriate solution.",
+          "Yes. We review your current denials and A/R and tell you what we'd change, whether or not you engage us.",
       },
       {
-        question: "Can I request information about multiple services?",
+        question: "What should I bring to the consultation?",
         answer:
-          "Absolutely. Whether you're interested in one service or a complete healthcare solution, we're happy to discuss your requirements.",
+          "A recent remittance (ERA/EOB), your A/R aging report and a list of the payers you bill. That's enough for us to spot where revenue is getting stuck.",
       },
       {
         question: "Do you work with practices of different sizes?",

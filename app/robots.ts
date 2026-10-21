@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/services/healthcare-seo", "/resources/blog"],
+      disallow: ["/resources/blog"],
     },
     sitemap: `${siteUrl}/sitemap.xml`,
     host: siteUrl,

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { buildPageMetadata } from "@/lib/site";
-import { faqPageSchema, breadcrumbSchema } from "@/lib/seo-schema";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/seo-schema";
 import { CTABanner } from "@/components/CTABanner";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import { Footer } from "@/components/Footer";
@@ -22,7 +22,7 @@ export default function RevenueCycleManagementPage() {
 
   return (
     <>
-      <JsonLd data={[faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/services/revenue-cycle-management")]} />
+      <JsonLd data={[serviceSchema(c.hero.breadcrumb, c.meta.description, "/services/revenue-cycle-management"), faqPageSchema(c.faqs.items), breadcrumbSchema(c.hero.breadcrumb, "/services/revenue-cycle-management")]} />
       <Navbar />
       <main>
         <Hero

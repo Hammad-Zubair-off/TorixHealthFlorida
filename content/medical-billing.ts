@@ -5,9 +5,9 @@ import type { IconName } from "@/components/icons";
 /** Medical Billing — full-cycle billing from scheduling through final payment. */
 export const medicalBillingContent = {
   meta: {
-    title: "Medical Billing",
+    title: "Medical Billing Services in Florida",
     description:
-      "From patient scheduling to the last insurance or patient dollar, Torix Solutions medical billing handles the full cycle — accurate claims, faster turnaround, and no missed steps between departments.",
+      "Medical billing services for Florida practices: eligibility checks, scrubbed claims, payment posting, denial follow-up and patient billing, handled end to end.",
   },
   hero: {
     breadcrumb: [
@@ -15,10 +15,10 @@ export const medicalBillingContent = {
       { label: "Services" },
       { label: "Medical Billing" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "Full-cycle billing, from schedule to final payment.",
+    eyebrow: "Medical Billing Services",
+    headline: "Medical billing services that get Florida practices paid.",
     subheadline:
-      "From the moment your patient is scheduled to the moment the last dollar — insurance or patient — lands in your account, our medical billing service handles it all. Our international team delivers the same accuracy as US-based billers, at a fraction of the cost, with faster turnaround and no missed steps between departments. It's full-cycle billing, run by people who treat your claims like their own revenue.",
+      "We take over billing from the moment a patient is scheduled until the last dollar is paid: checking insurance before the visit, submitting clean claims, posting payments, fixing denials and billing patient balances. One team owns every step, so nothing gets lost between your front desk and the insurer.",
     primaryCta: { label: "Book a Consultation", href: "/contact" },
     secondaryCta: {
       label: "Compare with full RCM",
@@ -75,7 +75,7 @@ export const medicalBillingContent = {
         question:
           "What's the difference between Medical Billing and Revenue Cycle Management?",
         answer:
-          "Medical Billing runs the full claim cycle from eligibility and submission through posting and patient balances. Revenue Cycle Management coordinates the wider cycle across coding, claims, credentialing, and collections so nothing falls between stages.",
+          "Medical Billing covers the claim itself: eligibility, coding, submission, payment posting, denial rework and patient balances. Revenue Cycle Management covers the whole cycle around it, from scheduling and registration through credentialing, claims and collections, so nothing falls between stages.",
       },
       {
         question: "How is Medical Billing different from Medical Billing Audit?",
@@ -103,7 +103,7 @@ export const medicalBillingContent = {
           "Claims may be denied because of eligibility issues, coding errors, missing authorizations, incorrect payer information, documentation requirements, or other billing issues. We identify the cause and manage the appropriate correction or follow-up.",
       },
       {
-        question: "Can Torix Solutions manage my entire medical billing process?",
+        question: "Can Medical Billers manage my entire medical billing process?",
         answer:
           "Yes. We can support the complete billing cycle, including eligibility verification, claims submission, payment posting, denial management, AR follow-up, and reporting.",
       },

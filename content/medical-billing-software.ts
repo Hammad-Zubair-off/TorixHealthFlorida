@@ -7,9 +7,9 @@ import type { IconName } from "@/components/icons";
 /** Medical Billing Software solution page — in-house billing automation platform. */
 export const medicalBillingSoftwareContent = {
   meta: {
-    title: "Medical Billing Software",
+    title: "Free Medical Billing Software",
     description:
-      "Torix Solutions Medical Billing Software: in-house billing automation with EHR and practice management integration, workflow automation and reporting you can read. Bundled at no cost with the Medical Billing service.",
+      "Medical billing software from Medical Billers: billing automation, EHR integration and readable reports, free with our billing service.",
   },
   hero: {
     breadcrumb: [
@@ -17,10 +17,10 @@ export const medicalBillingSoftwareContent = {
       { label: "Solutions" },
       { label: "Medical Billing Software" },
     ],
-    eyebrow: "Healthcare Technology",
-    headline: "Billing automation built in house, not resold.",
+    eyebrow: "Included With Billing",
+    headline: "Medical billing software, free with our billing service.",
     subheadline:
-      "Torix Solutions Medical Billing Software streamlines billing workflows, connects to the systems you already run, and gives you reporting you can actually read. Less manual entry, shorter billing cycles, and visibility into what moved and what didn't.",
+      "Our medical billing software streamlines billing workflows, connects to the systems you already run, and gives you reporting you can actually read. Less manual entry, shorter billing cycles, and visibility into what moved and what didn't.",
     distinction:
       "Available as part of the Medical Billing service, bundled at no cost. Adopting the software is optional if you prefer to keep your current stack.",
     primaryCta: { label: "Request a Demo", href: "/contact" },
@@ -161,7 +161,7 @@ export const medicalBillingSoftwareContent = {
         icon: "code" as IconName,
         title: "Built & Maintained In-House",
         description:
-          "Software written and maintained by Torix, not a white-labelled third-party product with a logo swap.",
+          "Software written and maintained by Medical Billers, not a white-labelled third-party product with a logo swap.",
       },
       {
         icon: "shield" as IconName,

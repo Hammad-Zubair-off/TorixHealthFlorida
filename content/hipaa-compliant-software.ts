@@ -6,9 +6,9 @@ import type { IconName } from "@/components/icons";
 /** HIPAA-Compliant Software solution page — security & compliance practices. */
 export const hipaaCompliantSoftwareContent = {
   meta: {
-    title: "HIPAA-Compliant Software",
+    title: "HIPAA-Compliant Medical Billing",
     description:
-      "Torix Solutions HIPAA-compliant software practices: role-based access control, audit logging, encryption in transit and at rest, and a signed Business Associate Agreement. Documented in detail rather than asserted in a badge.",
+      "How Medical Billers protects PHI: role-based access, audit logs, encryption in transit and at rest, and a signed BAA before any data moves.",
   },
   hero: {
     breadcrumb: [
@@ -16,19 +16,19 @@ export const hipaaCompliantSoftwareContent = {
       { label: "Solutions" },
       { label: "HIPAA-Compliant Software" },
     ],
-    eyebrow: "Healthcare Technology",
-    headline: "Compliance as an operating practice, not a badge.",
+    eyebrow: "HIPAA Compliance",
+    headline: "HIPAA-compliant medical billing, documented, not just claimed.",
     subheadline:
-      "Torix Solutions protects healthcare data with encryption, role-based access, audit logging and a signed Business Associate Agreement before PHI moves. Controls are documented in detail rather than asserted in a marketing claim.",
+      "Medical Billers protects healthcare data with encryption, role-based access, audit logging and a signed Business Associate Agreement before PHI moves. Controls are documented in detail rather than asserted in a marketing claim.",
     distinction:
-      "Secure healthcare technology and HIPAA-focused processes across our software and operational work.",
+      "HIPAA-focused processes across our billing operations and the billing software we provide.",
     primaryCta: {
       label: "Learn About Our Compliance Practices",
       href: "/contact",
     },
     secondaryCta: {
-      label: "See Healthcare Platform",
-      href: "/solutions/healthcare-platform",
+      label: "See Medical Billing Services",
+      href: "/services/medical-billing",
     },
     image: {
       src: "/brand/heroes/hipaa.jpg",
@@ -56,7 +56,7 @@ export const hipaaCompliantSoftwareContent = {
         icon: "clipboard" as IconName,
         title: "Staff HIPAA Training",
         description:
-          "People who handle PHI are trained on HIPAA obligations and how Torix processes are supposed to work in practice.",
+          "People who handle PHI are trained on HIPAA obligations and how our processes are supposed to work in practice.",
       },
       {
         icon: "monitor" as IconName,
@@ -150,7 +150,7 @@ export const hipaaCompliantSoftwareContent = {
         icon: "mapPin" as IconName,
         title: "Dedicated Compliance Support",
         description:
-          "US-based support that can walk through how controls apply to your engagement, not only reset passwords.",
+          "A named contact who can walk through how controls apply to your engagement, not only reset passwords.",
       },
     ] satisfies FeatureItem[],
   },

@@ -312,7 +312,7 @@ export function HeroLeadForm({ specialtyOptions }: HeroLeadFormProps) {
             onChange={() => clearFieldError("consent")}
           />
           <span>
-            I acknowledge that Torix Solutions may use my information as
+            I acknowledge that Medical Billers may use my information as
             described in its Privacy Policy &amp; agree to receive
             promotional content via email &amp; text messages.
           </span>

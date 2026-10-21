@@ -19,11 +19,6 @@ const indexableRoutes: Array<{
     priority: 0.85,
   },
   {
-    path: "/solutions/healthcare-platform",
-    changeFrequency: "monthly",
-    priority: 0.85,
-  },
-  {
     path: "/solutions/hipaa-compliant-software",
     changeFrequency: "monthly",
     priority: 0.8,

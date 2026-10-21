@@ -2,16 +2,15 @@ import type { Metadata } from "next";
 
 /** Live production origin — override with NEXT_PUBLIC_SITE_URL for local/staging. */
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://www.torixhealth.com"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.medicalbillersflorida.com"
 ).replace(/\/$/, "");
 
-export const siteName = "Torix Solutions";
+export const siteName = "Medical Billers";
 
 export const defaultDescription =
-  "Torix Solutions handles medical billing, coding, credentialing, and revenue cycle management so practices get paid faster with fewer denials.";
+  "Medical Billers is a medical billing company serving Florida practices with billing, coding, credentialing and revenue cycle management.";
 
-export const ogImagePath = "/brand/torix-logo-mark.png";
+export const ogImagePath = "/brand/medical-billers-mark.svg";
 
 type BuildPageMetadataInput = {
   title: string;
@@ -52,8 +51,8 @@ export function buildPageMetadata({
       images: [
         {
           url: ogImagePath,
-          width: 365,
-          height: 431,
+          width: 64,
+          height: 64,
           alt: `${siteName} logo`,
         },
       ],

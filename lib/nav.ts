@@ -20,7 +20,7 @@ export const mainNav: Array<NavLink | NavGroup> = [
       { label: "Medical Coding", href: "/services/medical-coding" },
       { label: "Accounts Receivable Operations", href: "/services/ar-follow-up" },
       { label: "Revenue Cycle Management", href: "/services/revenue-cycle-management" },
-      { label: "Credentialing and Contract", href: "/services/credentialing" },
+      { label: "Credentialing & Contracting", href: "/services/credentialing" },
     ],
   },
   {
@@ -30,8 +30,7 @@ export const mainNav: Array<NavLink | NavGroup> = [
         label: "Medical Billing Software",
         href: "/solutions/medical-billing-software",
       },
-      { label: "Healthcare Platform", href: "/solutions/healthcare-platform" },
-      { label: "HIPAA Compliance", href: "/solutions/hipaa-compliant-software" },
+      { label: "HIPAA-Compliant Software", href: "/solutions/hipaa-compliant-software" },
     ],
   },
   { label: "About Us", href: "/about" },
@@ -46,11 +45,10 @@ export const footerNav = {
     { label: "Medical Coding", href: "/services/medical-coding" },
     { label: "Accounts Receivable Operations", href: "/services/ar-follow-up" },
     { label: "Revenue Cycle Management", href: "/services/revenue-cycle-management" },
-    { label: "Credentialing and Contract", href: "/services/credentialing" },
+    { label: "Credentialing & Contracting", href: "/services/credentialing" },
   ],
   solutions: [
     { label: "Medical Billing Software", href: "/solutions/medical-billing-software" },
-    { label: "Healthcare Platform", href: "/solutions/healthcare-platform" },
     { label: "HIPAA-Compliant Software", href: "/solutions/hipaa-compliant-software" },
   ],
   company: [

@@ -6,16 +6,16 @@ import type { IconName } from "@/components/icons";
 /** Homepage copy from referenceUI Nocturne Light, with em-dash phrasing cleaned up. */
 export const homeContent = {
   meta: {
-    title: "Medical Billing & Healthcare Technology",
+    title: "Medical Billing Company in Florida",
     description:
-      "Underpayments and slow follow-up are quietly draining your collections. Torix Solutions fixes that. Our team of billing experts handles your entire revenue cycle — accurate medical coding, credentialing with the insurances you actually bill, timely claims submission, and relentless follow-up on every unpaid claim. The result: faster reimbursements, fewer denials, and more of what you've earned actually landing in your account.",
+      "Medical billing company for Florida practices: coding, claims, denials, A/R follow-up and credentialing, with a named rep and a signed BAA from day one.",
   },
   hero: {
-    eyebrow: "US-based billing operations & healthcare technology",
-    headline: "A billing partner you can count on.",
-    highlightWord: "count on.",
+    eyebrow: "Medical billing company serving Florida",
+    headline: "Medical billing for Florida practices, done right.",
+    highlightWord: "done right.",
     subheadline:
-      "Underpayments and slow follow-up are quietly draining your collections. Torix Solutions fixes that. Our team of billing experts handles your entire revenue cycle — accurate medical coding, credentialing with the insurances you actually bill, timely claims submission, and relentless follow-up on every unpaid claim. The result: faster reimbursements, fewer denials, and more of what you've earned actually landing in your account.",
+      "Denied claims, slow insurers and aging A/R add up to money your practice has already earned but never collects. We handle the coding, claims, payment posting, denials and credentialing for you, working with Medicare, Florida Medicaid plans and commercial payers like Florida Blue, so you get paid faster and your staff stop chasing insurers.",
     primaryCta: { label: "Book a Consultation", href: "/contact" },
     secondaryCta: {
       label: "See how billing works",
@@ -26,50 +26,50 @@ export const homeContent = {
   },
   trust: [
     {
-      icon: "users" as IconName,
-      label: "100+ Satisfied Providers",
-      description: "Across the USA",
+      icon: "shield" as IconName,
+      label: "Signed BAA Before Day One",
+      description: "No PHI moves without it",
     },
     {
-      icon: "shield" as IconName,
-      label: "99% Clean Claims Rate",
-      description: "Higher first-pass success",
+      icon: "check" as IconName,
+      label: "Every Claim Scrubbed",
+      description: "Errors caught before payers see them",
     },
     {
       icon: "clock" as IconName,
-      label: "25+ Specialties Supported",
-      description: "Broad experience",
+      label: "20 Specialties Supported",
+      description: "From family medicine to cardiology",
     },
     {
       icon: "headphones" as IconName,
-      label: "US-Based Support Team",
-      description: "Real people. Real support.",
+      label: "Named Account Representative",
+      description: "One person who knows your practice",
     },
   ] satisfies TrustItem[],
   split: {
-    heading: "Two things we do, kept separate on purpose.",
+    heading: "Billing work done for you, with the tools included.",
     subheading:
-      "Operational services and technology products are different commitments with different buyers. We don't blur them.",
+      "We run your billing operation end to end. If you need better billing software, it comes with the service at no extra cost.",
     servicesCard: {
-      kicker: "Healthcare Services",
+      kicker: "Billing Services",
       title: "We run the billing operation",
       description:
         "Claims, coding, credentialing, audits and full revenue cycle management, performed by our team on your behalf.",
       cta: { label: "Explore Services", href: "/services/medical-billing" },
     },
     solutionsCard: {
-      kicker: "Healthcare Technology",
-      title: "We build the software",
+      kicker: "Included Software",
+      title: "Billing software at no extra cost",
       description:
-        "Telehealth, patient portal, EHR and EMR, practice management, and billing automation: one connected system rather than five vendors.",
-      cta: { label: "Explore Solutions", href: "/solutions/healthcare-platform" },
+        "Billing automation, claim tracking and readable reporting, bundled free with our Medical Billing service. Or keep the system you already use.",
+      cta: { label: "See the software", href: "/solutions/medical-billing-software" },
     },
   },
   overview: {
-    servicesHeading: "Healthcare services",
+    servicesHeading: "Medical billing services",
     servicesNote:
       "Services are work we do on your behalf. Every engagement is assigned a named representative before it starts.",
-    solutionsHeading: "Software we wrote, not software we resell.",
+    solutionsHeading: "Included with your billing service.",
     services: [
       {
         icon: "fileText",
@@ -113,11 +113,11 @@ export const homeContent = {
       },
       {
         icon: "building",
-        title: "Credentialing and Contract",
+        title: "Credentialing & Contracting",
         description:
           "Get enrolled with the insurances that matter, keep CAQH current, and renew credentials before you lose network status.",
         href: "/services/credentialing",
-        ctaLabel: "Credentialing and Contract",
+        ctaLabel: "Credentialing & Contracting",
       },
     ] satisfies OverviewCard[],
     solutions: [
@@ -125,19 +125,19 @@ export const homeContent = {
         icon: "monitor",
         title: "Medical Billing Software",
         description:
-          "Bundled at no cost with the Medical Billing service. Less manual entry, shorter billing cycles, and reporting you can actually read. Includes a free EHR and free practice management.",
+          "Bundled at no cost with the Medical Billing service. Less manual entry, shorter billing cycles, and reporting you can actually read.",
         href: "/solutions/medical-billing-software",
         tag: "Free",
         ctaLabel: "Request a Demo",
       },
       {
         icon: "layers",
-        title: "Healthcare Platform",
+        title: "Works With Your EHR",
         description:
-          "EHR, EMR, practice management, specialty and mobile EHR, patient portal, telehealth, chronic care management and public sector deployments, connected under one login.",
-        href: "/solutions/healthcare-platform",
-        tag: "Flagship",
-        ctaLabel: "Request a Platform Demo",
+          "No rip-and-replace. We bill inside the EHR and practice management system you already run, so your staff keep the tools they know.",
+        href: "/services/medical-billing",
+        tag: "Integration",
+        ctaLabel: "See how billing works",
       },
       {
         icon: "lock",
@@ -157,7 +157,7 @@ export const homeContent = {
         question:
           "What's the difference between Medical Billing and Revenue Cycle Management?",
         answer:
-          "Medical Billing is the claim: coded, scrubbed, submitted, posted, and reworked when it's denied. Revenue Cycle Management starts earlier and ends later: eligibility at registration, charge capture, the claim, then patient statements and collections.",
+          "Medical Billing covers the claim itself: eligibility, coding, submission, payment posting, denial rework and patient balances. Revenue Cycle Management covers the whole cycle around it, from scheduling and registration through credentialing, claims and collections, so nothing falls between stages.",
       },
       {
         question: "Will switching billing partners interrupt our cash flow?",
@@ -167,32 +167,27 @@ export const homeContent = {
       {
         question: "Do you sign a Business Associate Agreement?",
         answer:
-          "Yes, and before any protected health information is exchanged. The HIPAA Compliance page sets out how PHI is stored, logged and transmitted.",
+          "Yes, and before any protected health information is exchanged. The HIPAA-Compliant Software page sets out how PHI is stored, logged and transmitted.",
       },
       {
         question: "Do we have to use your software?",
         answer:
-          "No. The billing service works with the system you already run. The free Medical Billing Software is offered alongside it, and the Healthcare Platform is a separate decision you can make later or never.",
-      },
-    ] satisfies FAQItem[],
-  },
-  virtualAssistantFaqs: {
-    heading: "Virtual Assistant FAQs",
-    items: [
-      {
-        question: "What tasks can Torix Solutions Virtual Assistants handle?",
-        answer:
-          "Our virtual assistants can support administrative and healthcare-related workflows such as scheduling, patient communication, data entry, insurance verification, documentation support, and other routine administrative tasks.",
+          "No. The billing service works with the system you already run. The free Medical Billing Software is there if you want it, not a condition of working with us.",
       },
       {
-        question: "Can I hire a Virtual Assistant specifically for my medical practice?",
+        question: "How much do medical billing services cost?",
         answer:
-          "Yes. Virtual Assistant support can be tailored to your practice's workflow, specialty, administrative needs, and day-to-day workload.",
+          "Billing companies usually charge either a percentage of what they collect or a fee per claim. We quote each practice after reviewing your claim volume, payer mix and specialty, and the price and scope go in writing before anything starts. The first review is free.",
       },
       {
-        question: "How can a Virtual Assistant help reduce my staff's workload?",
+        question: "Do you bill Florida Medicaid and its managed care plans?",
         answer:
-          "A dedicated Virtual Assistant can handle time-consuming administrative tasks, allowing your in-house team to focus more on patients, providers, and higher-priority responsibilities.",
+          "Yes. Most Florida Medicaid patients are enrolled in Statewide Medicaid Managed Care (SMMC) plans, and each plan has its own authorization and claim rules. We work each plan's requirements separately instead of treating Medicaid as one payer.",
+      },
+      {
+        question: "Who handles Medicare claims in Florida?",
+        answer:
+          "First Coast Service Options is the Medicare Administrative Contractor for Florida (Jurisdiction N). We submit Part B claims to First Coast and check documentation against its local coverage determinations (LCDs) before claims go out.",
       },
     ] satisfies FAQItem[],
   },

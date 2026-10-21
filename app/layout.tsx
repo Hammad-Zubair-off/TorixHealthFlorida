@@ -30,7 +30,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${siteName} | Medical Billing & Healthcare Technology`,
+    default: `${siteName} | Medical Billing Company in Florida`,
     template: `%s | ${siteName}`,
   },
   description: defaultDescription,
@@ -40,20 +40,20 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName,
-    title: `${siteName} | Medical Billing & Healthcare Technology`,
+    title: `${siteName} | Medical Billing Company in Florida`,
     description: defaultDescription,
     images: [
       {
         url: ogImagePath,
-        width: 365,
-        height: 431,
+        width: 64,
+        height: 64,
         alt: `${siteName} logo`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteName} | Medical Billing & Healthcare Technology`,
+    title: `${siteName} | Medical Billing Company in Florida`,
     description: defaultDescription,
     images: [ogImagePath],
   },

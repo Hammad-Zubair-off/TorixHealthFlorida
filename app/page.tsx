@@ -43,9 +43,7 @@ export default function HomePage() {
 
   return (
     <>
-      <JsonLd
-        data={faqPageSchema([...c.faqs.items, ...c.virtualAssistantFaqs.items])}
-      />
+      <JsonLd data={faqPageSchema(c.faqs.items)} />
       <Navbar />
       <main>
         <Hero
@@ -74,10 +72,6 @@ export default function HomePage() {
           solutions={c.overview.solutions}
         />
         <FAQAccordion heading={c.faqs.heading} items={c.faqs.items} />
-        <FAQAccordion
-          heading={c.virtualAssistantFaqs.heading}
-          items={c.virtualAssistantFaqs.items}
-        />
         <CTABanner
           heading={c.finalCta.heading}
           subheading={c.finalCta.subheading}

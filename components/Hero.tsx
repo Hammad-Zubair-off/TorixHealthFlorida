@@ -213,7 +213,7 @@ export function HeroBrandVisual() {
         >
           <Image
             src="/brand/hero-doctor1.png"
-            alt="Healthcare professional representing Torix Solutions billing partnership"
+            alt="Healthcare professional representing Medical Billers billing partnership"
             fill
             className="object-cover object-top"
             priority

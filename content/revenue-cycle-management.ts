@@ -6,9 +6,9 @@ import type { IconName } from "@/components/icons";
 /** Revenue Cycle Management — full-cycle oversight from intake to final payment. */
 export const rcmContent = {
   meta: {
-    title: "Revenue Cycle Management",
+    title: "Revenue Cycle Management in Florida",
     description:
-      "Torix Solutions manages your entire revenue cycle from patient scheduling to final payment — so nothing falls through the cracks between coding, claims, credentialing, and collections.",
+      "Revenue cycle management for Florida practices, from eligibility and prior auth through claims, denials and patient collections, managed as one process.",
   },
   hero: {
     breadcrumb: [
@@ -16,10 +16,10 @@ export const rcmContent = {
       { label: "Services" },
       { label: "Revenue Cycle Management" },
     ],
-    eyebrow: "Healthcare Service",
-    headline: "The full revenue cycle, managed as one process.",
+    eyebrow: "Revenue Cycle Management",
+    headline: "Revenue cycle management, run as one process.",
     subheadline:
-      "Revenue cycle management is everything working together — not just billing in isolation. We manage your entire cycle from patient scheduling to final payment, so nothing falls through the cracks between coding, claims, credentialing, and collections.",
+      "Revenue cycle management (RCM) is every step between booking a patient and getting paid: eligibility, prior authorization, coding, claims, denials and patient collections. We manage all of it together, so a problem at the front desk doesn't turn into a denial three weeks later.",
     primaryCta: { label: "Book a Consultation", href: "/contact" },
     secondaryCta: {
       label: "See Medical Billing",
@@ -132,7 +132,7 @@ export const rcmContent = {
         icon: "activity" as IconName,
         title: "Reporting and Analysis",
         description:
-          "What's working? What's leaking? Torix Solutions shows you a holistic picture. With real-time dashboards and actionable insights, you can make smarter decisions and hit revenue goals without delays.",
+          "What's working? What's leaking? Medical Billers shows you a holistic picture. With real-time dashboards and actionable insights, you can make smarter decisions and hit revenue goals without delays.",
       },
     ] satisfies ProcessStep[],
   },
@@ -143,7 +143,7 @@ export const rcmContent = {
         question:
           "What's the difference between Revenue Cycle Management and Medical Billing?",
         answer:
-          "Medical Billing focuses on the claim path and performance insight around billing outcomes. Revenue Cycle Management is everything working together: from patient scheduling to final payment, coordinating coding, claims, credentialing, and collections so nothing falls between stages.",
+          "Medical Billing covers the claim itself: eligibility, coding, submission, payment posting, denial rework and patient balances. Revenue Cycle Management covers the whole cycle around it, from scheduling and registration through credentialing, claims and collections, so nothing falls between stages.",
       },
       {
         question: "What parts of the revenue cycle are included?",

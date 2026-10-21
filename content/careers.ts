@@ -7,9 +7,9 @@ import type { IconName } from "@/components/icons";
 /** Careers page copy from provided hiring brief. */
 export const careersContent = {
   meta: {
-    title: "Careers",
+    title: "Medical Billing Careers",
     description:
-      "Join Torix Solutions and help transform healthcare through technology, medical billing expertise, and operational excellence. Explore open positions and our hiring process.",
+      "Careers at Medical Billers. Join our medical billing, coding, credentialing and A/R teams. See open roles and how we hire.",
   },
   hero: {
     breadcrumb: [
@@ -17,9 +17,9 @@ export const careersContent = {
       { label: "Careers" },
     ],
     eyebrow: "Careers",
-    headline: "Build the future of healthcare with Torix Solutions.",
+    headline: "Build a career in medical billing with Medical Billers.",
     subheadline:
-      "Join a team that's transforming healthcare through technology, innovation, and operational excellence. We're passionate about building solutions that simplify healthcare operations, improve revenue cycles, and empower providers to focus on patient care.",
+      "Join a team that helps practices get paid for the care they deliver. We code, bill, follow up and credential so providers can focus on patients instead of paperwork.",
     distinction:
       "Whether you're an experienced professional or just starting your career, we believe great people create great solutions.",
     primaryCta: { label: "Explore Open Positions", href: "#openings" },
@@ -30,21 +30,21 @@ export const careersContent = {
     },
   },
   whyJoin: {
-    heading: "Why join Torix Solutions?",
+    heading: "Why join Medical Billers?",
     subheading:
-      "We're more than a workplace. We're a team that values collaboration, innovation, and continuous learning.",
+      "We're a team that values accuracy, collaboration and continuous learning.",
     items: [
       {
         icon: "activity" as IconName,
         title: "Meaningful Impact",
         description:
-          "Help healthcare providers improve their operations through technology and professional services that make a real difference.",
+          "Help practices recover revenue they've earned and keep their doors open for patients.",
       },
       {
         icon: "layers" as IconName,
         title: "Professional Growth",
         description:
-          "Expand your skills by working on healthcare software, medical billing solutions, compliance initiatives, and innovative technology projects.",
+          "Build depth across billing, coding, A/R, credentialing and compliance, with room to specialize.",
       },
       {
         icon: "users" as IconName,
@@ -54,16 +54,16 @@ export const careersContent = {
       },
       {
         icon: "code" as IconName,
-        title: "Innovation-Driven Culture",
+        title: "Always Improving",
         description:
-          "We're constantly exploring new technologies and better ways to solve healthcare challenges.",
+          "We keep looking for better ways to prevent denials and speed up payments.",
       },
     ] satisfies FeatureItem[],
   },
   whatWeDo: {
     heading: "What we do",
     subheading:
-      "Our team works across a wide range of healthcare solutions. Every role contributes to helping healthcare organizations operate more efficiently and deliver better patient experiences.",
+      "Every role contributes to the same goal: clean claims, fewer denials and faster payments for the practices we serve.",
     items: [
       {
         icon: "fileText" as IconName,
@@ -85,7 +85,7 @@ export const careersContent = {
       },
       {
         icon: "building" as IconName,
-        title: "Credentialing and Contract",
+        title: "Credentialing & Contracting",
         href: "/services/credentialing",
         ctaLabel: "Learn more →",
       },
@@ -96,27 +96,15 @@ export const careersContent = {
         ctaLabel: "Learn more →",
       },
       {
-        icon: "code" as IconName,
-        title: "Healthcare Software Development",
-        href: "/solutions/medical-billing-software",
-        ctaLabel: "Learn more →",
-      },
-      {
-        icon: "shield" as IconName,
-        title: "HIPAA-Focused Solutions",
-        href: "/solutions/hipaa-compliant-software",
-        ctaLabel: "Learn more →",
-      },
-      {
-        icon: "layers" as IconName,
-        title: "Healthcare Platform Development",
-        href: "/solutions/healthcare-platform",
+        icon: "activity" as IconName,
+        title: "Accounts Receivable Operations",
+        href: "/services/ar-follow-up",
         ctaLabel: "Learn more →",
       },
     ] satisfies FeatureItem[],
   },
   life: {
-    heading: "Life at Torix Solutions",
+    heading: "Life at Medical Billers",
     paragraphs: [
       "We believe the best ideas come from people who are encouraged to grow, collaborate, and innovate.",
       "We're committed to creating an environment where every team member can do their best work while continuing to develop personally and professionally.",
@@ -159,7 +147,7 @@ export const careersContent = {
   },
   benefits: {
     heading: "Benefits",
-    subheading: "What we offer teammates who join Torix Solutions.",
+    subheading: "What we offer teammates who join Medical Billers.",
     items: [
       {
         icon: "check" as IconName,
@@ -211,14 +199,6 @@ export const careersContent = {
     footerCta: { label: "Send Your Resume", href: "/contact" },
     items: [
       {
-        title: "Front-End Developer",
-        description:
-          "Build intuitive healthcare applications using modern web technologies.",
-        location: "United States",
-        employmentType: "Full-Time",
-        href: "/contact",
-      },
-      {
         title: "Medical Billing Specialist",
         description:
           "Support healthcare providers through accurate billing and revenue cycle management.",
@@ -235,9 +215,9 @@ export const careersContent = {
         href: "/contact",
       },
       {
-        title: "UI/UX Designer",
+        title: "A/R & Denials Specialist",
         description:
-          "Design intuitive digital experiences for healthcare professionals and patients.",
+          "Work aging balances, appeal denials and recover underpayments for client practices.",
         location: "United States",
         employmentType: "Full-Time",
         href: "/contact",
@@ -245,7 +225,7 @@ export const careersContent = {
       {
         title: "Business Development Executive",
         description:
-          "Help grow our partnerships and expand our healthcare solutions across new markets.",
+          "Help more practices find a billing partner they can count on.",
         location: "United States",
         employmentType: "Full-Time",
         href: "/contact",
@@ -275,7 +255,7 @@ export const careersContent = {
           "We'll assess technical and cultural fit before making a decision.",
       },
       {
-        title: "Welcome to Torix Solutions",
+        title: "Welcome to Medical Billers",
         description:
           "Begin your journey with onboarding, training, and support from our team.",
       },
@@ -314,14 +294,14 @@ export const careersContent = {
       {
         icon: "layers" as IconName,
         title: "Continuous Improvement",
-        description: "We keep refining services, software and how we work.",
+        description: "We keep refining our billing workflows and how we work.",
       },
     ] satisfies FeatureItem[],
   },
   finalCta: {
     heading: "Ready to join our team?",
     subheading:
-      "If you're passionate about healthcare, technology, and solving meaningful challenges, we'd love to hear from you. Whether you're experienced or just beginning, Torix Solutions offers opportunities to learn, grow, and make a lasting impact.",
+      "If you care about accurate billing and helping practices get paid, we'd love to hear from you. Whether you're experienced or just beginning, Medical Billers offers opportunities to learn, grow, and make a lasting impact.",
     cta: { label: "Apply Now", href: "/contact" },
   },
 };

@@ -3,17 +3,30 @@ import type { FAQItem } from "@/components/FAQAccordion";
 import { siteContact } from "@/lib/site-contact";
 import {
   absoluteSiteUrl,
+  defaultDescription,
   ogImagePath,
   siteName,
   siteUrl,
 } from "@/lib/site";
 
+const areaServed = { "@type": "State", name: "Florida" };
+
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
     name: siteName,
     url: siteUrl,
+    description: defaultDescription,
+    areaServed,
+    knowsAbout: [
+      "Medical billing",
+      "Medical coding",
+      "Revenue cycle management",
+      "Provider credentialing",
+      "Denial management",
+    ],
     logo: absoluteSiteUrl(ogImagePath),
     email: siteContact.email.label,
     telephone: siteContact.phone.label,
@@ -38,6 +51,25 @@ export function websiteSchema() {
       name: siteName,
       url: siteUrl,
     },
+  };
+}
+
+/** Service schema for a service page; the name is the breadcrumb's last label. */
+export function serviceSchema(
+  breadcrumb: BreadcrumbItem[],
+  description: string,
+  path: string,
+) {
+  const name = breadcrumb[breadcrumb.length - 1]?.label ?? siteName;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name,
+    serviceType: name,
+    description,
+    url: absoluteSiteUrl(path),
+    areaServed,
+    provider: { "@id": `${siteUrl}/#organization` },
   };
 }
 

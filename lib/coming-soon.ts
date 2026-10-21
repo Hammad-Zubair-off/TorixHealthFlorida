@@ -8,7 +8,7 @@ export function comingSoonMetadata(
 ): Metadata {
   return buildPageMetadata({
     title: feature,
-    description: `${feature} is coming soon from Torix Solutions.`,
+    description: `${feature} is coming soon from Medical Billers.`,
     path,
     noIndex: true,
   });
